@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign up</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form>
+
+		<label for="">Email:</label>
+		<br>
+		<input type="email" name="email" id="email" placeholder="myName@example.com" required>
+	
+		<br>
+		<label for="">Password:</label>
+		<br>
+		<input type="password" name="password"  id="password"required>
+
+		<br>
+		<label for="">Full name:</label>
+		<br>
+		<input type="text" name="fullName" placeholder="John Smith" required>
+
+		<br>
+		<label for="">Your ID:</label>
+		<br>
+		<input type="number" name ="ID" placeholder="0000000" required>
+		
+		<br>
+		<label for="">Your address</label>
+		<br>
+		<input type="text" name ="street" placeholder="examplestreet" required>
+		<input type="number" name = "houseNumber" size="4" placeholder="1" required>
+		<input type="text" name="houseNumberSuffix" size="2" maxlength="2"placeholder="a">
+		
+		<br>
+		<label for="">Zip code</label>
+		<br>
+		<input type="number" name="zipcode4" placeholder="0000" required>
+		<input type = "text" size ="2" maxlength ="2" minlength ="2" name ="zipcode6" placeholder="AA" required>
+
+		<br>
+		<label for="">Country:</label>
+		<br>
+		<input type="text" name="Country" placeholder="the Netherlands" required>
+		
+		<br>
+		<label for="">Language:</label>
+		<br>
+		<input type="text" name="language" placeholder="English" required>
+
+		<br>
+		<label for="sex">Sex:</label>
+		<br>
+		<input type="radio" name="sex"> Male <br>
+		<input type="radio" name="sex"> Female <br>
+		<input type="radio" name="sex"> Intersex <br>
+		
+		<br>
+		<label for="">Tell us about yourself:</label>
+		<br>
+		<textarea name="bio"  cols="50" rows="10"> an interesting bio...</textarea>
+
+		<br>
+		<input type="submit" value="Sign up as mentor" formaction="mentorRequest.html">
+		<input type="submit" value="Sign up as mentee" formaction="menteeBook.html">
+		</form>
+</body>
+</html>

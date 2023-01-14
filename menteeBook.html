@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mentee booking</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Sent meeting request</h1>
+
+	<!--formaction should be javascript function that makes this request visiable for the mentor-->
+	<form>
+		<label for="">Purpopse of meeting:</label> <br>
+		<textarea name="meetingPurpose" cols="30" rows="10"></textarea> 
+		<br>
+
+		<label for="">Avilible dates and times:</label> <br>
+		<select name="dates and times" multiple>
+			<!--would not be hardcoded in real application, datetime would come from mentors avalable slots-->
+			<option value="19/01/2023 09:00 AM">19/01/2023 09:00 AM</option>
+			<option value="20/01/2023 10:00 AM">20/01/2023 10:00 AM</option>
+		</select>
+
+		<br>
+		<input type="submit" value="Sent">
+		<input type="reset">
+
+	</form>
+</body>
+</html>
