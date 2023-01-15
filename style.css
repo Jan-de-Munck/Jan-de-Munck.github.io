@@ -1,0 +1,19 @@
+.mentor{
+    display: flex;
+}
+.Search_bar{
+    position: fixed;
+}
+.header{
+    height: 40  px;
+}
+.title{
+    height: 40px;
+}
+.Search_bar{
+    height: 70px;
+}
+.searching{
+    height: 100px;
+}
+
