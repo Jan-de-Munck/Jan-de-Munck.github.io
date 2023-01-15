@@ -1,5 +1,11 @@
-.mentor{
+.mentor_time{
     display: flex;
+}
+.mentor{
+    background-color: blue;
+}
+.mentor1{
+    background-color: cadetblue;
 }
 .Search_bar{
     position: fixed;
@@ -12,13 +18,27 @@
 }
 .Search_bar{
     height: 70px;
+    font-size: 80%;
 }
 .searching{
     height: 100px;
 }
 
 .image{
-    width: "200"; 
-    height: "300";
+    width: 250px;
+    height: 300px;
 }
 
+.page{
+    background-color: cadetblue;
+    color: aqua;
+}
+
+.link a{
+    text-decoration: none;
+    color:black;
+}
+
+.name{
+    font-size: 120%;
+}
