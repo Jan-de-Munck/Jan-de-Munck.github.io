@@ -1,11 +1,26 @@
-
 .message{
 	font-size: small;
 	
 }
+
 .name{
 	font-size: large;
 }
+
 .datetime{
 	font-size: medium;
+}
+
+.button{
+	color: black;
+	text-decoration: none;
+}
+
+.row {
+	display: flex; 
+	}
+
+.col {
+	flex: 1; 
+	padding: 1em;
 }
