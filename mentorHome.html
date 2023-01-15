@@ -8,7 +8,14 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1>Messages:</h1>
+	<div class = "available_date">
+        	<p>Show mentees when you are available! : </p>
+        	<form>
+            		<input type="text" id="date" placeholder="type date and time">
+            	<input type="submit" name = "" value = "add">
+        	</form>
+    	</div>
+	<p>Messages:</p>
 	<br>
 	<!--list would be dynamicly filled with new messages rather than hardcoded-->
 	<!--the accept buttons should call a javascript function to send a message to the mentee that the mentor agreed and makes the date+time unavailable for this mentor
@@ -27,14 +34,6 @@
 			<div class = "datetime">19/01/2023 09:00 AM <button onclick="book()">accept</button> </div>
 		</li>
 	</ol>
-    <div class = "available_date">
-        <p>Show mentees when you are available! : </p>
-        <form>
-            <input type="text" id="date" placeholder="type date and time">
-            <input type="submit" name = "" value = "add">
-        </form>
-    </div>
-
 	
 </body>
 </html>
